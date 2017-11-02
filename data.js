@@ -15,7 +15,8 @@ export function getMeta() {
 				name: 'right',
 				component: 'Icon',
 				showStyle: 'softly',
-				type: 'info-circle'
+				type: 'info-circle',
+				title: '指标说明'
 			}]
 		}, {
 			name: 'text',

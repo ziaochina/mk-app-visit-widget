@@ -12,10 +12,10 @@ class reducer {
     init = (state, option) => {
         const initState = getInitState()
         if(option){
-            initState.x = option.x
-            initState.y = option.y
-            initState.total = option.total
-            initState.average = option.average
+            initState.data.x = option.x
+            initState.data.y = option.y
+            initState.data.total = option.total
+            initState.data.average = option.average
         }
         return this.metaReducer.init(state, initState)
     }

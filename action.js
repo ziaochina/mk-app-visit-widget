@@ -21,6 +21,7 @@ class action {
     onInit = ({ component, injections }) => {
         this.component = component
         this.injections = injections
+        debugger
         injections.reduce('init', this.component.props.visitData)
     }
 
@@ -39,8 +40,8 @@ class action {
             grid: {
                 left: 0,
                 right: 0,
-                bottom: 10,
-                top: 20
+                bottom: 15,
+                top: 15
             },
             series: [{
                 type: 'line',
